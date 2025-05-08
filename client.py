@@ -7,6 +7,8 @@ from Payroll import Payroll
 
 
 def client():
+    # This mimics the behaviour of a "client" of the Banking system "server" APIs. 
+    
     bank = Bank()
 
     branch_london = Branch(location="London")
